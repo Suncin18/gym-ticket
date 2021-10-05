@@ -54,9 +54,9 @@ const mostrarCitas = ()=>{
         
         // Creamos los elementos
         let divTicket = document.createElement('div');
-        let ticketID = document.createElement('h2');
-        let ticketHour = document.createElement('h2');
-        let ticketDate = document.createElement('h2');
+        let ticketID = document.createElement('h3');
+        let ticketHour = document.createElement('h3');
+        let ticketDate = document.createElement('h3');
 
         // Asignamos sus valores
         divTicket.classList.add('citas_titulo');
