@@ -30,11 +30,15 @@
 @media only screen and (max-width: 766px){
     .citas_titulo h2 {
         border: 1px solid black;
+        font-size: 21px;
     }
-    h3{
+    .citas_titulo h3{
+        font-size: 15px;
+    }
+    /* h3{
         font-size: 20px;
         margin-top: 15px;
-    }
+    } */
     input,
     button{
         margin-top: 5px;
@@ -48,8 +52,8 @@
 }
 
 /* Small Devices */
-@media only screen and (max-width: 375px){
+/* @media only screen and (max-width: 375px){
     h3{
         font-size: 16px;
     }
-}
+} */

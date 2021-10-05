@@ -82,14 +82,17 @@ a{
 
 /* Regular phones */
 @media only screen and (max-width: 766px){
+    body{
+        padding-bottom: 15px;
+    }
     h1{
-        font-size: 45px;
+        font-size: 39px;
     }
     h2{
         font-size: 30px;
     }
     .div_eliminar h3{
-        font-size: 24px;
+        font-size: 15px;
     }
     input{
         width: 230px;
@@ -99,7 +102,7 @@ a{
 /* Small Devices */
 @media only screen and (max-width: 375px){
     h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
