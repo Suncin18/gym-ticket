@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Admin</title>
+</head>
+<body>
+    <section id="sct-main">
+        <h1>Citas JKL GYM</h1>
+        <h2>Filtrar por tiquete</h2>
+        <input type="search" name="" id="filtrar-tiquete">
+        <button id="btn-filt-tiq" type="button">Filtrar</button>
+        <h2>Filtrar por fecha</h2>
+        <input type="date" name="" id="fecha-inicio">
+        <input type="date" name="" id="fecha-fin">
+        <button id="btn-filt-fecha" type="button">Filtrar</button>
+        <div>
+            <div class="citas_titulo">
+                <h2>Tiquete</h2>
+                <h2>Hora</h2>
+                <h2>Día</h2>
+            </div>
+            <div id="div-citas-existentes">
+                <!-- <div class="citas_titulo tiquete">
+                    <h2>0650</h2>
+                    <h2>6:50</h2>
+                    <h2>2021-10-02</h2>
+                </div>
+                <div class="citas_titulo tiquete">
+                    <h2>1228</h2>
+                    <h2>6:50</h2>
+                    <h2>2021-10-03</h2>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/back-end-general.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

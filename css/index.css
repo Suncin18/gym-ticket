@@ -1,0 +1,93 @@
+body{
+    /* background-color: rgb(12, 155, 202); */
+    background-image: url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sct-main{
+    background-color: rgba(255, 255, 255, .8);
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+    width: fit-content;
+    margin: 60px auto;
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 45px;
+    margin-top: 45px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+input,
+button{
+    font-size: 25px;
+    text-align: center;
+}
+select{
+    font-size: 25px;
+    text-align: center;
+    width: 90px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.link_container{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* JS */
+.div_eliminar{
+    display: flex;
+    font-size: 30px;
+    margin: 15px auto;
+    width: fit-content;
+}
+.div_eliminar h3{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.ocultar{
+    display: none;
+}
+
+/* RESPONSIVE */
+
+/* Regular phones */
+@media only screen and (max-width: 766px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .div_eliminar h3{
+        font-size: 24px;
+    }
+}
+
+/* Small Devices */
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 35px;
+    }
+}
+
+/* ULTRA PEQUEÑO RESPONSIVE */
+@media only screen and (max-width: 359px){
+    
+}

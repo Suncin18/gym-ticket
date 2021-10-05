@@ -1,0 +1,48 @@
+.citas_titulo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.citas_titulo div{
+    display: flex;
+}
+.citas_titulo h2{
+    border: 2px solid black;
+}
+
+/* JS */
+/* #filtrar-tiquete{
+    text-transform: uppercase
+} */
+
+.ocultar{
+    display: none;
+}
+
+/* Responsive */
+/* REGULAR PHONES */
+@media only screen and (max-width: 766px){
+    .citas_titulo h2 {
+        border: 1px solid black;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    input,
+    button{
+        margin-top: 5px;
+    }
+    input{
+        width: 245px;
+    }
+    button{
+        width: 145px;
+    }
+}
+
+/* Small Devices */
+@media only screen and (max-width: 375px){
+    h2{
+        font-size: 16px;
+    }
+}
