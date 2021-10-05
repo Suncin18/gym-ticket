@@ -3,6 +3,7 @@ body{
     background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 #sct-main{
     background-color: rgba(255, 255, 255, .8);
@@ -77,6 +78,9 @@ a{
     }
     .div_eliminar h3{
         font-size: 24px;
+    }
+    input{
+        width: 230px;
     }
 }
 
