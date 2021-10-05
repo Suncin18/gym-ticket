@@ -98,4 +98,19 @@ const agendar = ()=>{
 };
 
 // Eventos
+window.addEventListener('load', ()=>{
+    inputDate.addEventListener('blur', ()=>{
+        inputDate.type = 'text';
+    });
+    inputTime.addEventListener('blur', ()=>{
+        inputTime.type = 'text';
+    });
+
+    inputDate.addEventListener('focus', ()=>{
+        inputDate.type = 'date';
+    });
+    inputTime.addEventListener('focus', ()=>{
+        inputTime.type = 'time';
+    });
+});
 btnAgendar.addEventListener('click', agendar);

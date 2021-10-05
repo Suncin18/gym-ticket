@@ -74,4 +74,19 @@ const mostrarCitas = ()=>{
     });
 };
 
+window.addEventListener('load', ()=>{
+    fechaInicio.addEventListener('blur', ()=>{
+        fechaInicio.type = 'text';
+    });
+    fechaFin.addEventListener('blur', ()=>{
+        fechaFin.type = 'text';
+    });
+
+    fechaInicio.addEventListener('focus', ()=>{
+        fechaInicio.type = 'date';
+    });
+    fechaFin.addEventListener('focus', ()=>{
+        fechaFin.type = 'date';
+    });
+});
 inicializarColeccion();
