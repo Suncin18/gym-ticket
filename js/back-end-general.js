@@ -44,6 +44,11 @@ const registrarDatos = async(purl, pdataJSON) => {
     //Capturamos el servidor, de haber alguno
     .catch(error => {
         console.log(error);
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'La fecha u hora no son válidas',
+        })
     });
 };
 
